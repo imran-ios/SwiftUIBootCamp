@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C13AF492C568CC600EDBE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13AF482C568CC600EDBE8C /* AppDelegate.swift */; };
-		6C13AF4B2C568CC600EDBE8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13AF4A2C568CC600EDBE8C /* SceneDelegate.swift */; };
-		6C13AF4D2C568CC600EDBE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13AF4C2C568CC600EDBE8C /* ViewController.swift */; };
-		6C13AF502C568CC600EDBE8C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C13AF4F2C568CC600EDBE8C /* Base */; };
-		6C13AF522C568CC600EDBE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C13AF512C568CC600EDBE8C /* Assets.xcassets */; };
-		6C13AF552C568CC600EDBE8C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C13AF542C568CC600EDBE8C /* Base */; };
+		6C9A72392C568E33005CC403 /* SwiftUIBootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9A72382C568E33005CC403 /* SwiftUIBootCampApp.swift */; };
+		6C9A723B2C568E33005CC403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9A723A2C568E33005CC403 /* ContentView.swift */; };
+		6C9A723D2C568E33005CC403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9A723C2C568E33005CC403 /* Assets.xcassets */; };
+		6C9A72402C568E33005CC403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9A723F2C568E33005CC403 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6C13AF452C568CC600EDBE8C /* SwiftUIBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C13AF482C568CC600EDBE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C13AF4A2C568CC600EDBE8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C13AF4C2C568CC600EDBE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6C13AF4F2C568CC600EDBE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6C13AF512C568CC600EDBE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6C13AF542C568CC600EDBE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6C13AF562C568CC600EDBE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9A72352C568E33005CC403 /* SwiftUIBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9A72382C568E33005CC403 /* SwiftUIBootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampApp.swift; sourceTree = "<group>"; };
+		6C9A723A2C568E33005CC403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C9A723C2C568E33005CC403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C9A723F2C568E33005CC403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6C13AF422C568CC600EDBE8C /* Frameworks */ = {
+		6C9A72322C568E33005CC403 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C13AF3C2C568CC600EDBE8C = {
+		6C9A722C2C568E33005CC403 = {
 			isa = PBXGroup;
 			children = (
-				6C13AF472C568CC600EDBE8C /* SwiftUIBootCamp */,
-				6C13AF462C568CC600EDBE8C /* Products */,
+				6C9A72372C568E33005CC403 /* SwiftUIBootCamp */,
+				6C9A72362C568E33005CC403 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6C13AF462C568CC600EDBE8C /* Products */ = {
+		6C9A72362C568E33005CC403 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C13AF452C568CC600EDBE8C /* SwiftUIBootCamp.app */,
+				6C9A72352C568E33005CC403 /* SwiftUIBootCamp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C13AF472C568CC600EDBE8C /* SwiftUIBootCamp */ = {
+		6C9A72372C568E33005CC403 /* SwiftUIBootCamp */ = {
 			isa = PBXGroup;
 			children = (
-				6C13AF482C568CC600EDBE8C /* AppDelegate.swift */,
-				6C13AF4A2C568CC600EDBE8C /* SceneDelegate.swift */,
-				6C13AF4C2C568CC600EDBE8C /* ViewController.swift */,
-				6C13AF4E2C568CC600EDBE8C /* Main.storyboard */,
-				6C13AF512C568CC600EDBE8C /* Assets.xcassets */,
-				6C13AF532C568CC600EDBE8C /* LaunchScreen.storyboard */,
-				6C13AF562C568CC600EDBE8C /* Info.plist */,
+				6C9A72382C568E33005CC403 /* SwiftUIBootCampApp.swift */,
+				6C9A723A2C568E33005CC403 /* ContentView.swift */,
+				6C9A723C2C568E33005CC403 /* Assets.xcassets */,
+				6C9A723E2C568E33005CC403 /* Preview Content */,
 			);
 			path = SwiftUIBootCamp;
+			sourceTree = "<group>";
+		};
+		6C9A723E2C568E33005CC403 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C9A723F2C568E33005CC403 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C13AF442C568CC600EDBE8C /* SwiftUIBootCamp */ = {
+		6C9A72342C568E33005CC403 /* SwiftUIBootCamp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C13AF592C568CC600EDBE8C /* Build configuration list for PBXNativeTarget "SwiftUIBootCamp" */;
+			buildConfigurationList = 6C9A72432C568E33005CC403 /* Build configuration list for PBXNativeTarget "SwiftUIBootCamp" */;
 			buildPhases = (
-				6C13AF412C568CC600EDBE8C /* Sources */,
-				6C13AF422C568CC600EDBE8C /* Frameworks */,
-				6C13AF432C568CC600EDBE8C /* Resources */,
+				6C9A72312C568E33005CC403 /* Sources */,
+				6C9A72322C568E33005CC403 /* Frameworks */,
+				6C9A72332C568E33005CC403 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = SwiftUIBootCamp;
 			productName = SwiftUIBootCamp;
-			productReference = 6C13AF452C568CC600EDBE8C /* SwiftUIBootCamp.app */;
+			productReference = 6C9A72352C568E33005CC403 /* SwiftUIBootCamp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6C13AF3D2C568CC600EDBE8C /* Project object */ = {
+		6C9A722D2C568E33005CC403 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					6C13AF442C568CC600EDBE8C = {
+					6C9A72342C568E33005CC403 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 6C13AF402C568CC600EDBE8C /* Build configuration list for PBXProject "SwiftUIBootCamp" */;
+			buildConfigurationList = 6C9A72302C568E33005CC403 /* Build configuration list for PBXProject "SwiftUIBootCamp" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,63 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 6C13AF3C2C568CC600EDBE8C;
-			productRefGroup = 6C13AF462C568CC600EDBE8C /* Products */;
+			mainGroup = 6C9A722C2C568E33005CC403;
+			productRefGroup = 6C9A72362C568E33005CC403 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C13AF442C568CC600EDBE8C /* SwiftUIBootCamp */,
+				6C9A72342C568E33005CC403 /* SwiftUIBootCamp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6C13AF432C568CC600EDBE8C /* Resources */ = {
+		6C9A72332C568E33005CC403 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C13AF522C568CC600EDBE8C /* Assets.xcassets in Resources */,
-				6C13AF552C568CC600EDBE8C /* Base in Resources */,
-				6C13AF502C568CC600EDBE8C /* Base in Resources */,
+				6C9A72402C568E33005CC403 /* Preview Assets.xcassets in Resources */,
+				6C9A723D2C568E33005CC403 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6C13AF412C568CC600EDBE8C /* Sources */ = {
+		6C9A72312C568E33005CC403 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C13AF4D2C568CC600EDBE8C /* ViewController.swift in Sources */,
-				6C13AF492C568CC600EDBE8C /* AppDelegate.swift in Sources */,
-				6C13AF4B2C568CC600EDBE8C /* SceneDelegate.swift in Sources */,
+				6C9A723B2C568E33005CC403 /* ContentView.swift in Sources */,
+				6C9A72392C568E33005CC403 /* SwiftUIBootCampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		6C13AF4E2C568CC600EDBE8C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C13AF4F2C568CC600EDBE8C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6C13AF532C568CC600EDBE8C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C13AF542C568CC600EDBE8C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		6C13AF572C568CC600EDBE8C /* Debug */ = {
+		6C9A72412C568E33005CC403 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		6C13AF582C568CC600EDBE8C /* Release */ = {
+		6C9A72422C568E33005CC403 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,18 +264,19 @@
 			};
 			name = Release;
 		};
-		6C13AF5A2C568CC600EDBE8C /* Debug */ = {
+		6C9A72442C568E33005CC403 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBootCamp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftUIBootCamp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,18 +292,19 @@
 			};
 			name = Debug;
 		};
-		6C13AF5B2C568CC600EDBE8C /* Release */ = {
+		6C9A72452C568E33005CC403 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBootCamp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftUIBootCamp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C13AF402C568CC600EDBE8C /* Build configuration list for PBXProject "SwiftUIBootCamp" */ = {
+		6C9A72302C568E33005CC403 /* Build configuration list for PBXProject "SwiftUIBootCamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C13AF572C568CC600EDBE8C /* Debug */,
-				6C13AF582C568CC600EDBE8C /* Release */,
+				6C9A72412C568E33005CC403 /* Debug */,
+				6C9A72422C568E33005CC403 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C13AF592C568CC600EDBE8C /* Build configuration list for PBXNativeTarget "SwiftUIBootCamp" */ = {
+		6C9A72432C568E33005CC403 /* Build configuration list for PBXNativeTarget "SwiftUIBootCamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C13AF5A2C568CC600EDBE8C /* Debug */,
-				6C13AF5B2C568CC600EDBE8C /* Release */,
+				6C9A72442C568E33005CC403 /* Debug */,
+				6C9A72452C568E33005CC403 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6C13AF3D2C568CC600EDBE8C /* Project object */;
+	rootObject = 6C9A722D2C568E33005CC403 /* Project object */;
 }
