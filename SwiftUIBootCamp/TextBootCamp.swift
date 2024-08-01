@@ -1,5 +1,5 @@
 //
-//  Textbootcamp.swift
+//  TextBootCamp.swift
 //  SwiftUIBootCamp
 //
 //  Created by Md Imran Ali on 29/07/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Textbootcamp:View {
+struct TextBootCamp:View {
     var body: some View {
         Text("Md Imran Ali")
 //            .font(.system(size: 20, weight: .bold))
@@ -26,5 +26,5 @@ struct Textbootcamp:View {
 
 
 #Preview {
-    Textbootcamp()
+    TextBootCamp()
 }
