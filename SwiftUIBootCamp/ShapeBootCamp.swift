@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ShapeBootCamp: View {
     var body: some View {
-        Ellipse().frame(width: 250, height: 100)
+        RoundedRectangle(cornerSize: CGSize(width: 20, height: 20), style: .continuous)
+//        Rectangle()
+//        Ellipse()
+            .frame(width: 250, height: 100)
 //        Circle()
 //            .fill(.red)
 //            .foregroundStyle(.green)
