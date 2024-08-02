@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C1388332C5D40CE007B5850 /* ShapeBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1388322C5D40C1007B5850 /* ShapeBootCamp.swift */; };
 		6C695FFF2C5A827A00A04C56 /* LabelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C695FFE2C5A827300A04C56 /* LabelBootCamp.swift */; };
 		6C9A72392C568E33005CC403 /* SwiftUIBootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9A72382C568E33005CC403 /* SwiftUIBootCampApp.swift */; };
 		6C9A723B2C568E33005CC403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9A723A2C568E33005CC403 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C1388322C5D40C1007B5850 /* ShapeBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBootCamp.swift; sourceTree = "<group>"; };
 		6C695FFE2C5A827300A04C56 /* LabelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelBootCamp.swift; sourceTree = "<group>"; };
 		6C9A72352C568E33005CC403 /* SwiftUIBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9A72382C568E33005CC403 /* SwiftUIBootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampApp.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				6C9A723A2C568E33005CC403 /* ContentView.swift */,
 				6CE18A602C57FE50008EEF76 /* TextBootCamp.swift */,
 				6C695FFE2C5A827300A04C56 /* LabelBootCamp.swift */,
+				6C1388322C5D40C1007B5850 /* ShapeBootCamp.swift */,
 				6C9A723C2C568E33005CC403 /* Assets.xcassets */,
 				6C9A723E2C568E33005CC403 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				6C9A723B2C568E33005CC403 /* ContentView.swift in Sources */,
 				6CE18A612C57FE67008EEF76 /* TextBootCamp.swift in Sources */,
 				6C9A72392C568E33005CC403 /* SwiftUIBootCampApp.swift in Sources */,
+				6C1388332C5D40CE007B5850 /* ShapeBootCamp.swift in Sources */,
 				6C695FFF2C5A827A00A04C56 /* LabelBootCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
