@@ -1,5 +1,5 @@
 //
-//  imageBootcamp.swift
+//  ImageBootcamp.swift
 //  SwiftUIBootCamp
 //
 //  Created by Md Imran Ali on 06/09/24.
@@ -7,12 +7,21 @@
 
 import SwiftUI
 
-struct imageBootcamp: View {
+struct ImageBootcamp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("image3")
+            .resizable()
+            .frame(width: 300, height: 200, alignment: .center)
+            .aspectRatio(contentMode: .fit)
+//            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .clipShape(
+//                Circle()
+                RoundedRectangle(cornerRadius: 10)
+//                Ellipse()
+            )
     }
 }
 
 #Preview {
-    imageBootcamp()
+    ImageBootcamp()
 }
